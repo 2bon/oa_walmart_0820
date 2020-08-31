@@ -1,11 +1,15 @@
 =========================================================
 7. Your solution should include a README explaining how to build and run the application with Docker. We will follow the steps you provide in readme file and execute it to verify.
 
+a. run these cmd @ terminal
+
 docker build -t hi_walmart
 
 docker run -d hi_walmart -p 8080:8080
 
-http://localhost:8080/healthz
+b. click http://localhost:8080/healthz
+
+http://localhost:8080/
 
 =========================================================
 
